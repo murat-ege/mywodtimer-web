@@ -1,52 +1,36 @@
+# MyWOD Timer ⏱️⚡
+
+**High-Performance Workout & Interval Timer for CrossFit®, HYROX®, Tabata, HIIT, EMOM, AMRAP & Boxing**
+
+Welcome to the official documentation and legal portal for **MyWOD Timer** (iOS & Android).
+
 ---
-layout: default
-title: Home
+
+## 🌐 Official Documents (English)
+
+- 🔒 **[Privacy Policy](privacy-policy)** — How MyWOD Timer handles device permissions, local storage, in-app advertisements, and PRO purchases.
+- 📜 **[Terms of Use & EULA](terms-of-use)** — End-User License Agreement, PRO upgrade terms, health & fitness disclaimer, and trademark notices.
+- 💬 **[Support & FAQ](support)** — Help center, troubleshooting guide, PRO purchase restoration, and contact details.
+
 ---
 
-<div style="text-align: right; margin-bottom: 20px;">
-    <button onclick="switchLang('en')" style="padding:5px 10px; cursor:pointer;">EN</button>
-    <button onclick="switchLang('tr')" style="padding:5px 10px; cursor:pointer;">TR</button>
-</div>
+## 🇹🇷 Resmi Dokümanlar (Türkçe)
 
-<!-- Menü -->
-<div class="lang-en" style="margin-bottom: 30px;">
-    <a href="./">Home</a> | 
-    <a href="privacy.html">Privacy Policy</a> | 
-    <a href="support.html">Support</a>
-</div>
-<div class="lang-tr" style="margin-bottom: 30px; display:none;">
-    <a href="./">Ana Sayfa</a> | 
-    <a href="privacy.html">Gizlilik Politikası</a> | 
-    <a href="support.html">Destek</a>
-</div>
+- 🔒 **[Gizlilik Politikası (KVKK & GDPR)](privacy-policy-tr)** — Cihaz izinleri, yerel veri depolama, uygulama içi reklamlar ve PRO üyelik gizlilik esasları.
+- 📜 **[Kullanım Koşulları ve Lisans Sözleşmesi (EULA)](terms-of-use-tr)** — Telif hakları, PRO sürüm koşulları, sağlık sorumluluk reddi ve ticari marka bildirimleri.
+- 💬 **[Destek ve Sıkça Sorulan Sorular (SSS)](support-tr)** — Yardım merkezi, sorun giderme, PRO satın alımlarını geri yükleme ve iletişim.
 
-<!-- İçerik -->
-<div class="lang-en">
-    <h2>Ultimate WOD Timer</h2>
-    <p>The perfect companion for your CrossFit workouts. AMRAP, EMOM, TABATA and Custom intervals with seamless display synchronization.</p>
-    <p>
-        <a href="#">Download on App Store</a><br>
-        <a href="#">Get it on Google Play</a>
-    </p>
-</div>
+---
 
-<div class="lang-tr" style="display:none;">
-    <h2>En Gelişmiş WOD Sayacı</h2>
-    <p>CrossFit antrenmanlarınız için mükemmel yol arkadaşı. AMRAP, EMOM, TABATA ve kesintisiz ekran senkronizasyonu ile özel aralıklar.</p>
-    <p>
-        <a href="#">App Store'dan İndir</a><br>
-        <a href="#">Google Play'den Al</a>
-    </p>
-</div>
+## ⚡ Key Highlights
 
-<script>
-    function switchLang(lang) {
-        document.querySelectorAll('.lang-en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
-        document.querySelectorAll('.lang-tr').forEach(el => el.style.display = lang === 'tr' ? 'block' : 'none');
-        localStorage.setItem('appLang', lang);
-    }
-    document.addEventListener("DOMContentLoaded", () => {
-        const savedLang = localStorage.getItem('appLang') || (navigator.language.startsWith('tr') ? 'tr' : 'en');
-        switchLang(savedLang);
-    });
-</script>
+- **Complete Workout Timer Modes:** Tabata, EMOM, AMRAP, For Time, Rounds/Boxing, Stopwatch, Countdown, Custom Multi-Phase Routines, and Benchmark WODs.
+- **Workout Video Camera with Live HUD Overlay:** Record workouts with a real-time broadcast timer overlay, one-touch round/rep counter, and 0.25x/0.5x slow-motion form analysis.
+- **Dedicated HYROX Training Suite:** Full/Half Race Simulator with Roxzone split tracking, Compromised Running, Station P-EMOMs, Doubles (IGYG), Team Relay timers, and Official Division Weights.
+- **Voice Coach & 11 Audio Themes:** Spoken TTS cues and seamless background music ducking.
+- **MyWOD Timer PRO:** Upgrade to PRO for an **ad-free experience**, **watermark-free HD workout video exports**, and unlimited access to premium training tools.
+
+---
+
+© 2026 Murat Ege. All rights reserved.
+

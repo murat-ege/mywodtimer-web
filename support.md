@@ -1,40 +1,35 @@
+# Support & FAQ — MyWOD Timer
+
+**Application Name:** MyWOD Timer  
+**Platforms:** iOS (App Store) & Android (Google Play)  
+**Website:** [https://murat-ege.github.io/mywodtimer-web](https://murat-ege.github.io/mywodtimer-web)
+
+[🇹🇷 Türkçe Destek ve SSS sayfası için tıklayın](support-tr)
+
 ---
-layout: default
-title: Support
+
+## Frequently Asked Questions (FAQ)
+
+### 1. What is MyWOD Timer PRO and how do I remove ads or video watermarks?
+Upgrading to **MyWOD Timer PRO** unlocks all restricted premium features, removes all in-app advertisements, and removes the *"Recorded with MyWOD Timer"* watermark from your exported workout videos. You can upgrade directly inside the app via **Settings** or the **Workout Video Camera** screen.
+
+### 2. How do I restore my MyWOD Timer PRO purchase on a new device?
+Make sure you are signed in with the same Apple ID (iOS) or Google Play account (Android) used for the original purchase, open **MyWOD Timer**, and tap **Restore Purchases** in the PRO upgrade dialog or Settings.
+
+### 3. Can I listen to Spotify or Apple Music while using the timer?
+Yes! MyWOD Timer supports **Background Music Ducking**. Keep your favorite music app playing—MyWOD Timer will gently lower your music volume only for a split second when countdown beeps or Voice Coach announcements play, then restore full volume automatically.
+
+### 4. How does the Workout Video Camera with Live HUD Timer work?
+Open the **Recordings (Camera)** tab from the bottom navigation bar, choose your timer mode (AMRAP, For Time, EMOM, Tabata, HYROX, 1RM/PR, or Stopwatch), select your HUD overlay style (*Elegant*, *Minimal*, or *Broadcast*), and start recording. When finished, you can review your lift in `0.5x` or `0.25x` slow-motion or tap **Burn Overlay & Share Video** to export a video with the timer permanently embedded.
+
+### 5. How can I free up storage space used by recorded workout videos?
+Go to **Settings → Storage & Media → Manage**. You can clear temporary export cache files while keeping your saved videos, or delete all recorded media at once.
+
 ---
 
-<div style="text-align: right; margin-bottom: 20px;">
-    <button onclick="switchLang('en')" style="padding:5px 10px; cursor:pointer;">EN</button>
-    <button onclick="switchLang('tr')" style="padding:5px 10px; cursor:pointer;">TR</button>
-</div>
+## Contact & Technical Support
 
-<div class="lang-en" style="margin-bottom: 30px;">
-    <a href="./">Home</a> | <a href="privacy.html">Privacy Policy</a>
-</div>
-<div class="lang-tr" style="margin-bottom: 30px; display:none;">
-    <a href="./">Ana Sayfa</a> | <a href="privacy.html">Gizlilik Politikası</a>
-</div>
+Need help, found a bug, or have a feature request for **MyWOD Timer**?
+- **Developer:** Murat Ege
+- **Legal Links:** [Privacy Policy](privacy-policy) | [Terms of Use (EULA)](terms-of-use)
 
-<div class="lang-en">
-    <h2>Support & Contact</h2>
-    <p>If you are experiencing any issues with the app, have feature requests, or just want to say hi, we are here to help!</p>
-    <p>The fastest way to reach us is via email: <a href="mailto:iletisim@uygulamaniz.com">iletisim@uygulamaniz.com</a></p>
-</div>
-
-<div class="lang-tr" style="display:none;">
-    <h2>Destek ve İletişim</h2>
-    <p>Uygulamayla ilgili herhangi bir sorun yaşıyorsanız, yeni bir özellik talebiniz varsa veya sadece merhaba demek istiyorsanız, buradayız!</p>
-    <p>Bize ulaşmanın en hızlı yolu e-posta göndermektir: <a href="mailto:iletisim@uygulamaniz.com">iletisim@uygulamaniz.com</a></p>
-</div>
-
-<script>
-    function switchLang(lang) {
-        document.querySelectorAll('.lang-en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
-        document.querySelectorAll('.lang-tr').forEach(el => el.style.display = lang === 'tr' ? 'block' : 'none');
-        localStorage.setItem('appLang', lang);
-    }
-    document.addEventListener("DOMContentLoaded", () => {
-        const savedLang = localStorage.getItem('appLang') || (navigator.language.startsWith('tr') ? 'tr' : 'en');
-        switchLang(savedLang);
-    });
-</script>

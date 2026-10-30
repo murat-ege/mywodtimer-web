@@ -1,0 +1,4 @@
+# Google AdMob app-ads.txt Configuration for MyWOD Timer
+# Replace pub-0000000000000000 with your actual Google AdMob Publisher ID before publishing.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
