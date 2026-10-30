@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/midnight@v0.2.0
 title: MyWOD Timer
 description: Ultimate WOD Timer for CrossFit
+plugins:
+  - jekyll-remote-theme
